@@ -56,9 +56,9 @@ typedef struct bus_s
 
 extern bus_t bus;
 
-void free_stack(stack_t *head);
 void f_push(stack_t **head, unsigned int number);
 void f_pall(stack_t **head, unsigned int counter);
+void f_queue(stack_t **head, unsigned int counter);
 void free_stack(stack_t *head);
 void addnode(stack_t **head, int n);
 void addqueue(stack_t **head, int n);
